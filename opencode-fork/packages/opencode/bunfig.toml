@@ -1,0 +1,5 @@
+preload = ["@opentui/solid/preload"]
+
+[test]
+preload = ["./test/preload.ts"]
+timeout = 30000  # 30 seconds - allow time for package installation
