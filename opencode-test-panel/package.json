@@ -1,0 +1,20 @@
+{
+  "name": "opencode-test-panel",
+  "version": "0.1.0",
+  "description": "Python Test Runner side panel for OpenCode",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5",
+    "@opencode-ai/sdk": "latest"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6",
+    "typescript": "^5.8.3"
+  }
+}
